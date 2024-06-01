@@ -9,7 +9,6 @@
 <body>
     <section>
         <div id="content">
-            <h1>Os números gerados são entre 0 e 100</h1>
             <?php 
                 $num1 = $_GET["num1"];
                 $num2 = $_GET["num2"];
