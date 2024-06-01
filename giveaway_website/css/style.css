@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    text-align: center;
+    padding: 15px 0 20px;
+}
+body{
+    background-color: rgb(47, 47, 236);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    
+}
+#content{
+    height: 70vh;
+    color: rgb(255, 255, 255);
+    background-color: blueviolet;
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 3vw;
+    border-radius: 15px;
+    flex-direction: column;
+}
+
+ #content > h1{
+    font-size: 3vw;
+}
+#content > form{
+    font-size: 18px;
+}
+#numbers > input, #intervalo > #number_int{
+    width: 50px;
+    height: 40px;
+    text-indent: 10px;
+    font-size: 18px;
+    border-radius: 50px;
+    border: none;
+}
+#intervalo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 50%;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+    align-items: center;
+}
+section{
+    display: flex;
+    justify-content: center;
+    height: 80vh;
+    align-items: center;
+}
+.btn{
+    height: 35px;
+    width: 100%;
+    background-color: blueviolet;
+    color: white;
+    border: 1px solid white;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 18px;
+}
+.btn:hover{
+    background-color: white;
+    border: 1px solid rgb(47, 0, 90);
+    color: blueviolet;
+    transition: .5s;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+}
