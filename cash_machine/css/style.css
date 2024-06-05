@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: rgba(0, 0, 0, 0.726);
+}
+header{
+    text-align: center;
+    color: white;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    /*background-color: silver;*/
+}
+form{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    justify-items: center;
+    height: 90%;
+    justify-content: center;
+    align-items: center;
+    background-color: silver;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: -2px 3px 20px 0px black;
+    width: 50%;
+    font-size: 20px;
+}
+#saque{
+    margin: 20px 0 0;
+    height: 40px;
+    text-indent: 15px;
+    font-size: 18px;
+    border-radius: 10px;
+}
+#btn_saq{
+    margin: 20px 0 0;
+    height: 40px;
+    width: 60px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 8px 0px black;
+    border-bottom: 3px solid black;
+    border-right: 3px solid black;
+    border-left: 3px solid black;
+    cursor: pointer;
+    font-weight: bold;
+}
+#btn_saq:active{
+    transform: scale(0.9);
+    box-shadow: none;
+    border: 1px solid black;
+}
+.res{
+    height: 250px;
+    width: 50%;
+    background-color: white;
+    margin-top: 15px;
+    border-radius: 15px;
+    padding: 10px;
+}
+.res>h2{
+    text-align: center;
+    padding: 10px;
+}
+#pref{
+    width: 60px;
+    height: 50px;
+    font-size: 18px;
+    text-indent: 15px;
+}
