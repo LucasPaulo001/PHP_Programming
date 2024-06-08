@@ -1,0 +1,150 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: rgb(21, 21, 77);
+}
+header{
+    text-align: center;
+    color: white;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    width: 30%;
+    /*background-color: silver;*/
+}
+
+/*Parte Anatomia de uma divisão, Parte Cash machine*/
+
+#part_desfio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.title{
+    color: white;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 20% 1fr;
+    justify-items: center;
+    align-items: center;
+    height: 50%;
+    width: 50%;
+}
+.form_numbers{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.numbers{
+    width: 100%;
+    background-color: rgb(84, 84, 196);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.form_numbers > #num1, #num2, #submit{
+    height: 40px;
+    margin: 5px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    text-indent: 5px;
+}
+#submit{
+    cursor: pointer;
+    background-color: rgb(140, 140, 255);
+    border: 1px solid white;
+}
+#submit:hover{
+    background-color: rgb(49, 49, 121);
+    color: white;
+    transition: 0.5s;
+}
+.form_numbers > #msg{
+    padding: 10px;
+
+}
+
+.resultado > h2{
+    text-align: center;
+}
+.resultado{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    width: 100%;
+    border-radius: 15px;
+    height: 100%;
+    padding: 15px;
+    background-color: rgb(181, 194, 255);
+}
+.divisao{
+    width: 100%;
+    font-size: 30px;
+}
+/*.resultado > .divisao > tbody > tr > td{
+    height: 30px;
+}*/
+.resultado > .divisao > tbody > .top > .divisor{
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+}
+.resultado > .divisao > tbody > .buttom > .quociente{
+    border-left: 1px solid #9d9d9d;
+
+}
+.resultado > .divisao > tbody > .top > .dividendo, .resultado > .divisao > tbody > .buttom > .resto{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.resto{
+    text-decoration: underline;
+}
+/*Parte Desafio médias aritméticas, cálculo de idade, Reajuste de preços*/
+
+.form_values{
+    display: flex;
+    flex-direction: column;
+}
+#valor1, #peso1, #valor2, #peso2, /*Cálculo de idade ->*/#ano, #ano_fim, /*Cálculo de idade ->*/ #valor, #porcento, /*Calculadora de tempo ->*/ #seg, /*sorteio ->*/ #num1, #num2, #number_int{
+    height: 40px;
+    margin: 10px;
+    border-radius: 10px;
+    border: none;
+    text-indent: 10px;
+    font-size: 18px;
+}
+.form_values > label{
+    color: white;
+    border-radius: 10px;
+}
+.form_values > p{
+    color: white;
+    padding: 10px;
+}
+.cedulas_img{
+    display: flex;
+    flex-direction: column;
+    padding-top: 15px;
+}
+.cedula{
+    display: flex;
+    align-items: end;
+    margin: 5px;
+    gap: 5px;
+}
+
